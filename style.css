@@ -66,7 +66,6 @@ span{
 .halfwidth img{
     width: 80%;
 }
-
 .link-button{
     text-decoration: none;
     text-align: center;
@@ -75,7 +74,7 @@ span{
     color: white;
     border-radius: 5%;
     background-image: linear-gradient(rgb(76, 167, 228), rgb(25, 103, 167));
-    padding: 2%;   
+    padding: 2%;
 }
 .bg-img{
     background-image: url(images/shapes/Frame\ 57.jpg);
@@ -83,6 +82,7 @@ span{
 }
 .my-recipies{
     text-align: center;
+    padding: 50px 0;
 }
 .img-recipies{
     padding-left: 15px 0;
@@ -94,11 +94,20 @@ span{
     padding: 40px;
     margin: 1%;
     border-radius: 10%;
-    box-shadow: 10px 10px 40px lightgray;
-    
+    box-shadow: 10px 10px 40px lightgray;  
+}
+.follow{
+    padding-left: 29.5%;
+}
+.follow img{
+    width: 60%;  
+}
+#follow{
+    text-align: center;
+    padding-top: 80px;  
 }
 #skip-order{
-    padding-left: 2%;
+    padding-left: 1%;
 }
 #img-old{
     padding-left: 10%;
@@ -107,4 +116,7 @@ span{
     width: 40%;
     padding-left: 10%;
     margin-top: 4%;
+}
+#insta{
+    padding-bottom: 10%;
 }
